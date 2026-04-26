@@ -18,7 +18,7 @@ export default function Settings() {
               <h3 style={{ fontSize: '1rem' }}>Profile</h3>
             </div>
             <div className="form-group"><label>Name</label><input defaultValue={user?.name} /></div>
-            <div className="form-group"><label>Email</label><input defaultValue="admin@campuspulse.ai" /></div>
+            <div className="form-group"><label>Email</label><input defaultValue="admin@campusconnect.com" /></div>
             <div className="form-group"><label>Role</label><input value={user?.role} readOnly style={{ opacity: 0.6 }} /></div>
             <button className="btn btn-primary">Save Changes</button>
           </div>

@@ -9,7 +9,7 @@ export default function LandingPage() {
   return (
     <div className="landing-page animate-in">
       <nav className="landing-nav">
-        <div className="logo">⚡ CampusPulse AI</div>
+        <div className="logo">⚡ CampusConnect</div>
         <div style={{ display: 'flex', gap: 12 }}>
           <button className="btn btn-secondary btn-sm" onClick={() => navigate('/login')}>Log In</button>
           <button className="btn btn-primary btn-sm" onClick={() => navigate('/login')}>Get Started <ArrowRight size={14} /></button>
@@ -97,8 +97,8 @@ export default function LandingPage() {
       </section>
 
       <footer className="landing-footer">
-        <div className="logo" style={{ marginBottom: 16, display: 'inline-block' }}>⚡ CampusPulse AI</div>
-        <p>© 2026 CampusPulse AI. Built for the AICore Connect Hackathon.</p>
+        <div className="logo" style={{ marginBottom: 16, display: 'inline-block' }}>⚡ CampusConnect</div>
+        <p>© 2026 CampusConnect. Built for the AICore Connect Hackathon.</p>
         <p style={{ marginTop: 8 }}>Turn Campus Ambassadors into a scalable growth engine.</p>
       </footer>
     </div>

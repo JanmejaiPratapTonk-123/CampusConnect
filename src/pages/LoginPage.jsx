@@ -21,7 +21,7 @@ export default function LoginPage() {
           <Zap size={32} style={{ color: 'var(--primary-light)' }} />
         </div>
         <h1>Welcome Back</h1>
-        <p className="subtitle">Sign in to CampusPulse AI</p>
+        <p className="subtitle">Sign in to CampusConnect</p>
         <form onSubmit={handleLogin}>
           <div className="form-group">
             <label>Select Role</label>
@@ -38,7 +38,7 @@ export default function LoginPage() {
           </div>
           <div className="form-group">
             <label>Email</label>
-            <input type="email" defaultValue="admin@campuspulse.ai" />
+            <input type="email" defaultValue="admin@campusconnect.com" />
           </div>
           <div className="form-group">
             <label>Password</label>

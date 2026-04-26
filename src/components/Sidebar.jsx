@@ -31,7 +31,7 @@ export default function Sidebar() {
       <div className="sidebar-header">
         <div className="sidebar-logo">
           <Zap size={22} style={{ color: 'var(--primary-light)' }} />
-          <span>CampusPulse</span>
+          <span>CampusConnect</span>
         </div>
       </div>
       <nav className="sidebar-nav">

@@ -1,4 +1,4 @@
-// CampusPulse AI — Mock Data Layer
+// CampusConnect — Mock Data Layer
 // Realistic sample data for all pages
 
 export const ambassadors = [
@@ -19,24 +19,24 @@ export const ambassadors = [
 export const colleges = ['All Colleges', 'IIT Delhi', 'BITS Pilani', 'NIT Trichy', 'IIIT Hyderabad', 'DTU', 'VIT Vellore', 'IIT Bombay', 'NSUT', 'COEP Pune', 'IIT Madras', 'NIT Warangal', 'JECRC Jaipur'];
 
 export const tasks = [
-  { id: 1, title: 'Social Media Campaign — Spring Launch', description: 'Post the spring campaign banner on Instagram, LinkedIn, and Twitter with #CampusPulse.', deadline: '2026-05-10', status: 'active', priority: 'high', assignedTo: [1, 2, 3, 5], submissions: 3, totalAssigned: 4, points: 150, category: 'Social Media' },
+  { id: 1, title: 'Social Media Campaign — Spring Launch', description: 'Post the spring campaign banner on Instagram, LinkedIn, and Twitter with #CampusConnect.', deadline: '2026-05-10', status: 'active', priority: 'high', assignedTo: [1, 2, 3, 5], submissions: 3, totalAssigned: 4, points: 150, category: 'Social Media' },
   { id: 2, title: 'Campus Workshop Recruitment', description: 'Recruit at least 20 students for the upcoming AI workshop on campus.', deadline: '2026-05-15', status: 'active', priority: 'high', assignedTo: [1, 4, 6, 8], submissions: 2, totalAssigned: 4, points: 200, category: 'Events' },
   { id: 3, title: 'Product Feedback Survey', description: 'Distribute the product feedback form and collect 50+ responses from peers.', deadline: '2026-05-08', status: 'completed', priority: 'medium', assignedTo: [2, 3, 7], submissions: 3, totalAssigned: 3, points: 120, category: 'Research' },
-  { id: 4, title: 'Blog Post — Ambassador Experience', description: 'Write a 500-word blog about your ambassador journey for the CampusPulse blog.', deadline: '2026-05-20', status: 'active', priority: 'medium', assignedTo: [1, 5, 9, 11], submissions: 1, totalAssigned: 4, points: 180, category: 'Content' },
+  { id: 4, title: 'Blog Post — Ambassador Experience', description: 'Write a 500-word blog about your ambassador journey for the CampusConnect blog.', deadline: '2026-05-20', status: 'active', priority: 'medium', assignedTo: [1, 5, 9, 11], submissions: 1, totalAssigned: 4, points: 180, category: 'Content' },
   { id: 5, title: 'Referral Drive — May Sprint', description: 'Refer 10+ new users to the platform using your unique referral link.', deadline: '2026-05-25', status: 'pending', priority: 'high', assignedTo: [2, 4, 6, 8, 10, 12], submissions: 0, totalAssigned: 6, points: 250, category: 'Growth' },
-  { id: 6, title: 'Campus Poster Setup', description: 'Put up 15 CampusPulse posters in high-traffic areas. Upload photo proof.', deadline: '2026-04-30', status: 'completed', priority: 'low', assignedTo: [3, 7, 9], submissions: 3, totalAssigned: 3, points: 80, category: 'Marketing' },
+  { id: 6, title: 'Campus Poster Setup', description: 'Put up 15 CampusConnect posters in high-traffic areas. Upload photo proof.', deadline: '2026-04-30', status: 'completed', priority: 'low', assignedTo: [3, 7, 9], submissions: 3, totalAssigned: 3, points: 80, category: 'Marketing' },
   { id: 7, title: 'Peer Mentoring Session', description: 'Conduct a 30-min mentoring session for new ambassadors. Record and upload.', deadline: '2026-05-18', status: 'active', priority: 'medium', assignedTo: [1, 2], submissions: 0, totalAssigned: 2, points: 160, category: 'Community' },
   { id: 8, title: 'App Install Campaign', description: 'Get 25 verified app installs from your campus network.', deadline: '2026-06-01', status: 'pending', priority: 'high', assignedTo: [5, 6, 8, 11, 12], submissions: 0, totalAssigned: 5, points: 300, category: 'Growth' },
 ];
 
 export const submissions = [
-  { id: 1, taskId: 1, ambassadorId: 1, ambassadorName: 'Arjun Mehta', proof: 'https://instagram.com/p/campus_pulse_spring', status: 'approved', submittedAt: '2026-04-24', notes: 'Posted on all three platforms with hashtags.' },
-  { id: 2, taskId: 1, ambassadorId: 2, ambassadorName: 'Priya Sharma', proof: 'https://linkedin.com/post/priya-campus-pulse', status: 'approved', submittedAt: '2026-04-23', notes: 'Great engagement — 200+ likes.' },
+  { id: 1, taskId: 1, ambassadorId: 1, ambassadorName: 'Arjun Mehta', proof: 'https://instagram.com/p/campus_connect_spring', status: 'approved', submittedAt: '2026-04-24', notes: 'Posted on all three platforms with hashtags.' },
+  { id: 2, taskId: 1, ambassadorId: 2, ambassadorName: 'Priya Sharma', proof: 'https://linkedin.com/post/priya-campus-connect', status: 'approved', submittedAt: '2026-04-23', notes: 'Great engagement — 200+ likes.' },
   { id: 3, taskId: 1, ambassadorId: 3, ambassadorName: 'Karthik Nair', proof: 'https://twitter.com/karthik/spring_launch', status: 'pending', submittedAt: '2026-04-25', notes: 'Awaiting verification.' },
   { id: 4, taskId: 2, ambassadorId: 1, ambassadorName: 'Arjun Mehta', proof: 'Screenshot of sign-up sheet with 24 names', status: 'approved', submittedAt: '2026-04-22', notes: 'Exceeded target by 4.' },
   { id: 5, taskId: 2, ambassadorId: 4, ambassadorName: 'Sneha Reddy', proof: 'Google Form responses - 21 sign-ups', status: 'pending', submittedAt: '2026-04-25', notes: 'Pending manual verification.' },
   { id: 6, taskId: 3, ambassadorId: 2, ambassadorName: 'Priya Sharma', proof: 'Survey link with 62 responses', status: 'approved', submittedAt: '2026-04-20', notes: 'Exceeded 50 target.' },
-  { id: 7, taskId: 4, ambassadorId: 1, ambassadorName: 'Arjun Mehta', proof: 'https://blog.campuspulse.ai/arjun-journey', status: 'approved', submittedAt: '2026-04-21', notes: 'Well-written and published.' },
+  { id: 7, taskId: 4, ambassadorId: 1, ambassadorName: 'Arjun Mehta', proof: 'https://blog.campusconnect.com/arjun-journey', status: 'approved', submittedAt: '2026-04-21', notes: 'Well-written and published.' },
 ];
 
 export const activityFeed = [
@@ -108,7 +108,7 @@ export const rewards = [
 
 export const portalData = {
   assignedTasks: [
-    { id: 1, title: 'Social Media Campaign — Spring Launch', deadline: '2026-05-10', status: 'submitted', points: 150, proofLink: 'https://instagram.com/p/campus_pulse_spring' },
+    { id: 1, title: 'Social Media Campaign — Spring Launch', deadline: '2026-05-10', status: 'submitted', points: 150, proofLink: 'https://instagram.com/p/campus_connect_spring' },
     { id: 4, title: 'Blog Post — Ambassador Experience', deadline: '2026-05-20', status: 'in_progress', points: 180, proofLink: '' },
     { id: 7, title: 'Peer Mentoring Session', deadline: '2026-05-18', status: 'not_started', points: 160, proofLink: '' },
   ],
@@ -133,7 +133,7 @@ export const pricingPlans = [
 ];
 
 export const testimonials = [
-  { name: 'Sarah Chen', role: 'Growth Lead, TechStartup.io', quote: 'CampusPulse AI transformed our campus outreach. We went from 5 to 50 active ambassadors in 2 months with 3x better conversion rates.', avatar: 'SC' },
+  { name: 'Sarah Chen', role: 'Growth Lead, TechStartup.io', quote: 'CampusConnect transformed our campus outreach. We went from 5 to 50 active ambassadors in 2 months with 3x better conversion rates.', avatar: 'SC' },
   { name: 'Raj Patel', role: 'Community Manager, EduVenture', quote: 'The AI insights are a game-changer. We can now predict which ambassadors need attention before they disengage. Our retention improved by 40%.', avatar: 'RP' },
   { name: 'Lisa Wang', role: 'VP Marketing, GrowthHub', quote: 'The gamification features keep our ambassadors motivated. The leaderboard and badge system created healthy competition that drives real results.', avatar: 'LW' },
 ];
